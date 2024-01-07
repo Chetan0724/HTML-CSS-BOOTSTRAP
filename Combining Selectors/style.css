@@ -1,0 +1,75 @@
+/*
+
+Group Rule
+
+selector, selector {
+  color: blueviolet;
+}
+
+*/
+
+h1, h2 {
+  color: blueviolet;
+}
+
+/*
+
+Child
+
+selector (parent) > selector (child) {
+  color: firebrick;
+}
+
+*/
+
+.box > p {
+  color: firebrick;
+}
+
+/*
+
+Descendant
+
+selector (ancestor) selector (descendant) {
+  color: blue;
+}
+
+*/
+
+.box li {
+  color: blue;
+}
+
+/*
+
+Chaining
+
+selectorselector {
+  color: seagreen;
+}
+
+[elementclassid or elementidclass]
+
+*/
+
+li.done {
+  color: seagreen;
+}
+
+/*
+
+Combining Combiners
+
+selector (ancestor) selectorselector (Chaining Method) {
+  font-size: 0.5rem;
+}
+
+ul > p.done {
+  font-size: 0.5rem;
+}
+
+*/
+
+ul p.done {
+  font-size: 0.5rem;
+}
